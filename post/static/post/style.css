@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+}
+.custom-nav{
+    padding: 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    margin: 0px 8px;
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(224, 222, 222);
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgb(240, 236, 236);
+}
+
+.center i{
+    color: #707070;
+}
+
+.center input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

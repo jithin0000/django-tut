@@ -50,6 +50,39 @@
     <div class="row m-2">
       <div class="col-lg-6">
         <div class="float-right">
+          <div  class="card p-3 " style="width: 35rem;">
+            <div class="d-flex align-items-center justify-content-between">
+              <h4>{{title}}</h4>
+              <p style="color: grey;font-style: italic;" > <span>created at : </span> 12 January 2020 </p>
+            </div>
+            <p>
+              Lorem ipsum, dolor
+              aspernatur dolor qui similique
+              aspernatur dolor qui similique
+              aspernatur dolor qui similique
+              aspernatur dolor qui similique
+              ex nostrum.</p>
+            <div class="row">
+              <i class="material-icons-outlined">explore</i>
+              <i class="material-icons-outlined">favorite_border</i>
+              <i class="material-icons-outlined">account_circle</i>
+            </div>
+            <hr>
+            <p> <span style="font-weight: bold;">369</span> likes</p>
+            <a href="{% url 'detail' 1 %}" class="btn btn-secondary">view more</a>
+          </div >
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h3>Add new Post</h3>
+        <a href="{% url 'add' %}" class="btn btn-success">add new post</a>
+
+      </div>
+    </div>
+
+    <div class="row m-2">
+      <div class="col-lg-6">
+        <div class="float-right">
           <div class="card p-3 " style="width: 35rem;">
             <div class="d-flex align-items-center justify-content-between">
               <h4>Title</h4>
@@ -69,6 +102,8 @@
             </div>
             <hr>
             <p> <span style="font-weight: bold;">369</span> likes</p>
+            <a href="{% url 'detail' 2 %}" class="btn btn-secondary">view more</a>
+
             
           </div>
         </div>
@@ -100,6 +135,8 @@
             </div>
             <hr>
             <p> <span style="font-weight: bold;">369</span> likes</p>
+            <a href="{% url 'detail' 3 %}" class="btn btn-secondary">view more</a>
+
             
           </div>
         </div>
@@ -131,37 +168,8 @@
             </div>
             <hr>
             <p> <span style="font-weight: bold;">369</span> likes</p>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
+            <a href="{% url 'detail' 4 %}" class="btn btn-secondary">view more</a>
 
-      </div>
-    </div>
-
-    <div class="row m-2">
-      <div class="col-lg-6">
-        <div class="float-right">
-          <div class="card p-3 " style="width: 35rem;">
-            <div class="d-flex align-items-center justify-content-between">
-              <h4>Title</h4>
-              <p style="color: grey;font-style: italic;" > <span>created at : </span> 12 January 2020 </p>
-            </div>
-            <p>
-              Lorem ipsum, dolor
-              aspernatur dolor qui similique
-              aspernatur dolor qui similique
-              aspernatur dolor qui similique
-              aspernatur dolor qui similique
-              ex nostrum.</p>
-            <div class="row">
-              <i class="material-icons-outlined">explore</i>
-              <i class="material-icons-outlined">favorite_border</i>
-              <i class="material-icons-outlined">account_circle</i>
-            </div>
-            <hr>
-            <p> <span style="font-weight: bold;">369</span> likes</p>
             
           </div>
         </div>

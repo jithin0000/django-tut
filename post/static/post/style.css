@@ -33,6 +33,10 @@ i{
     color: #707070;
 }
 
+a{
+    margin: 8px;
+}
+
 .center input{
     border: none;
     background-color: transparent;

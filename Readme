@@ -1,0 +1,15 @@
+# install python
+# create virtual env
+# activate env
+
+# create new project
+django-admin startproject projectname
+
+# create new app
+python manage.py startapp post
+
+# register app in settings
+'post'
+
+=========================== views ================================
+
